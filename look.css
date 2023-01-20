@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Festive&family=Otomanopee+One&family=Poppins:ital,wght@1,700;1,900&display=swap');
+
+.row{
+    justify-content: center;
+    font-family: cursive;
+}
+.newsection{
+   
+    background:url('pr.png');
+   padding:5px 5px;
+    border-radius: 10px;
+    box-shadow:0px 0px 25px 10px rgb(36, 36, 36);
+
+}
+.section{
+    width: 60%;
+    min-height: 60vh;
+    /* background-color: rgb(214, 97, 19);; */
+    
+
+}
+.container1{
+    width: 100%;
+    display:block;
+    margin: auto;
+    padding-top: 80px;
+    
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    margin-right: 2%;
+    margin-top: 40px;
+    float: right;
+    width: 40%;
+}
+.src{
+    width: 125%;
+    height:auto;
+    border-radius: 10px;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 200px;
+    color: rgb(251, 255, 218);
+    font-family: 'arial';
+}
+
+.content-section .content h3{
+    margin-top: 2px;
+    color:#fff8d6;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content-section .content p{
+    margin-top: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(255, 251, 251, 0.904);
+}
+.content-section .content .button{
+  
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: rgb(86, 150, 150);
+    padding:10px 35px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    letter-spacing:1.5px ;
+    border-radius: 5px;
+}
+
+.content-section .content .button a:hover{
+    background-color: rgb(62, 116, 116);
+    color:rgb(255, 255, 255)
+}
+
+.Top
+{
+    
+    text-decoration: none;
+    color: rgb(24, 5, 5);
+    background-color: rgb(255, 246, 246);
+    padding:5px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size: 1.5rem;
+
+}
+.lead{
+    color: rgb(22, 22, 22);
+}
+
+.hing{
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    color: rgba(182, 250, 255, 0.822);
+    
+}
+body{
+    background-image:url('bj.png');
+    background-size: cover;
+    
+}
+.container{
+   background-image:url('pr.png');
+   padding:20px 20px;
+   border-radius: 10px;
+   box-shadow:0px 0px 25px 10px rgb(36, 36, 36);
+   background-size: cover;
+}
+.col-md-4{
+    transition:transform 0.2s ease-in-out;
+    
+}
+.card-mb-4-box-shadow{
+    background: white;
+}
+
+.col-md-4:hover{
+   transform: scale(1.05);
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float:right;
+    border-radius: 400px;
+ }
+.section1{
+    height: 100px;
+    width: auto;
+}
+
+.welcome{
+    color: rgb(235, 222, 222);
+    font-size:small;
+}
+
+.contact{
+    background-color: rgb(240, 77, 2);
+    padding:8px 8px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 12px;
+    letter-spacing:1.5px ;
+}
+
+.contact:hover{
+    background-color: #df2727;
+    color:rgb(14, 3, 3)
+}
+
+@keyframes bod{
+    0%{background: rgb(59, 58, 58);}
+    25%{background:rgb(136, 134, 134) ;}
+    50%{background: rgb(117, 103, 103);}
+    100%{background: rgb(59, 58, 58);}
+
+}
+

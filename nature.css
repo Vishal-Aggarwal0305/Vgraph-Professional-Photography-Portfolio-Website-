@@ -1,0 +1,62 @@
+.row{
+    justify-content: center;
+    font-family: cursive;
+}
+
+.Top
+{
+    
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    background-color: rgb(255, 246, 246);
+    padding:5px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size: 1.5rem;
+
+}
+.lead{
+    color: rgb(54, 54, 54);
+}
+
+.hing{
+    text-shadow: 2px 2px 5px rgb(44, 44, 44);
+    
+}
+body{
+    animation:bod 8s ease-in-out 0s infinite normal;
+}
+.container{
+   background-image:url('naturebg1.jpg');
+   background-color: ;
+   padding:30px 30px;
+   border-radius: 10px;
+   box-shadow:0px 0px 25px 10px rgb(36, 36, 36);
+   background-size: cover;
+}
+.col-md-4{
+    transition:transform 0.2s ease-in-out;
+    
+}
+.card-mb-4-box-shadow{
+    background: white;
+}
+
+.col-md-4:hover{
+   transform: scale(1.05);
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float:right;
+    border-radius: 400px;
+ }
+
+@keyframes bod{
+    0%{background: rgb(42, 114, 55);}
+    25%{background:rgb(103, 180, 109) ;}
+    50%{background: rgb(164, 252, 171);}
+    100%{background: rgb(42, 114, 55);}
+}

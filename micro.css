@@ -1,0 +1,65 @@
+.row{
+    justify-content: center;
+    font-family: cursive;
+}
+
+.Top
+{
+    
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    background-color: rgb(49, 49, 49);
+    padding:5px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size: 1.5rem;
+
+}
+.lead{
+    opacity: 1;
+    color: rgb(27, 27, 27);
+    
+}
+
+.hing{
+    text-shadow: 2px 2px 5px rgb(53, 53, 53);
+    
+}
+body{
+    animation:bod 8s ease-in-out 0s infinite normal;
+}
+.container{
+    
+   background-image:url('microbg.jpg');
+   background-color: ;
+   padding:30px 30px;
+   border-radius: 10px;
+   box-shadow:0px 0px 25px 10px rgb(36, 36, 36);
+   background-size:cover;
+}
+.col-md-4{
+    transition:transform 0.2s ease-in-out;
+    
+}
+.card-mb-4-box-shadow{
+    background: white;
+}
+
+.col-md-4:hover{
+   transform: scale(1.05);
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    float:right;
+    border-radius: 400px;
+ }
+
+@keyframes bod{
+    0%{background: rgb(126, 1, 78);}
+    25%{background:rgb(21, 106, 185) ;}
+    50%{background: rgb(95, 62, 204);}
+    100%{background: rgb(126, 1, 78);}
+}
